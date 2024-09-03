@@ -118,7 +118,7 @@ const education = {
       year: "2016 - 2019",
     },
     {
-      institution: "International House,",
+      institution: "International House",
       degree: "Spanish teacher as a foreigner language",
       year: "2019",
     },
