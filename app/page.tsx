@@ -36,7 +36,7 @@ const Home = () => {
                 href="https://www.linkedin.com/in/adrian-cura/"
                 className="border rounded-full  border-y-accent p-3 hover:text-primary hover:bg-accent-hover hover:border-black transition-all duration-300 ease-in-out"
               >
-                <FaLinkedinIn className="sticky" />
+                <FaLinkedinIn />
               </Link>
             </div>
           </div>
