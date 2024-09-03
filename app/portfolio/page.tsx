@@ -28,13 +28,8 @@ const projectList = [
     category: "FullStack",
     title: "Docs4All",
     description:
-      "A fullstack project utilizing shadcn for UI, Firebase for backend, Liveblocks for real-time collaboration, and AI features powered by Gemini API.",
-    stack: [
-      { name: "Typescript" },
-      { name: "NEXT.js" },
-      { name: "tailwindcss" },
-      { name: "Firebase" },
-    ],
+      "FullStack. Create your docs or add an organization and work together in real time, powered by AI",
+    stack: [{ name: "NEXT.js" }, { name: "Firebase" }, { name: "Clerk" }],
     image: "/assets/docs4all.png",
     live: "https://docs4all.vercel.app",
     github: "https://github.com/Adrian-Cura/Docs4All",
@@ -44,8 +39,12 @@ const projectList = [
     category: "Frontend",
     title: "ShadowTube",
     description:
-      "A frontend project that fetches YouTube videos via RapidAPI, using DaisyUI for UI components and Axios for data handling.",
-    stack: [{ name: "Typescript" }, { name: "Tailwind" }, { name: "NEXT.js" }],
+      "Frontend. It fetches YouTube videos via RapidAPI, using DaisyUI for styling and Axios for data handling.",
+    stack: [
+      { name: "NEXT.js" },
+      { name: "TypeScript" },
+      { name: "tailwindcss" },
+    ],
     image: "/assets/shadowtube.png",
     live: "https://shadowtube.vercel.app",
     github: "https://github.com/Adrian-Cura/ShadowTube",
@@ -71,7 +70,7 @@ const Portfolio = () => {
       }}
       className="min-h-[80vh] flex flex-col justify-center py-12 xl:px-0"
     >
-      <div className="container mx-auto">
+      <div className="container mx-auto ">
         <div className="flex flex-col xl:flex-row xl:gap-[30px]">
           {/* Left Section: Textual Content */}
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
@@ -80,9 +79,9 @@ const Portfolio = () => {
               <div className="text-8xl leading-none font-thin text-white/60 ">
                 {project.num}
               </div>
-              {/* Category */}
+              {/* Title */}
               <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">
-                {project.category} project
+                {project.title}
               </h2>
               {/* Description */}
               <p className="text-white/60">{project.description}</p>
@@ -98,7 +97,7 @@ const Portfolio = () => {
                 })}
               </ul>
               <div className="border border-white/20"></div>
-              <div className="flex gap-4 items-center">
+              <div className="flex gap-4 items-center pb-20">
                 {/* live button */}
                 <Link
                   target="_blank"
