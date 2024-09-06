@@ -21,7 +21,7 @@ const Photo = () => {
           }}
         >
           <Image
-            src="/assets/foto.png"
+            src="/assets/picFoliov3.png"
             quality={100}
             priority
             fill
