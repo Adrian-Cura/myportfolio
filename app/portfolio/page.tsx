@@ -54,7 +54,7 @@ const projectList = [
     category: "FullStack",
     title: "Factor Node",
     description:
-      "FactorNode is a forward-thinking AI automation agency dedicated to revolutionizing business operations through intelligent automation solutions.",
+      "A cutting-edge AI automation agency, with a website that is lightning-fast and fully SEO-optimized.",
     stack: [{ name: "Astro" }, { name: "Svelte" }, { name: "tailwindcss" }],
     image: "/assets/factornode.png",
     live: "https://www.factornode.com",
