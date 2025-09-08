@@ -109,17 +109,17 @@ const softskills = {
 const education = {
   title: "Education",
   description:
-    "I can sum up my educational journey in one word: self-taught. Just kidding! Of course, being self-taught doesn’t mean I learned everything on my own without any resources. With dedication and the vast opportunities offered by the internet, I’ve been able to dive deep into programming. I’ve benefited from many resources, most of them free, such as FreeCodeCamp, YouTube, official documentation, books, Google, and, most importantly, practice—lots of practice. Recently, ChatGPT has been invaluable in helping me clarify doubts, learn new concepts, and improve both my code and my programming logic. While many free resources don’t provide a certificate, I do have some from both free and paid courses. However, I prefer not to list them here, as we both know that certificates alone don’t always reflect the true value of the learning experience. If you’d like to see some of the certificates I’ve earned, feel free to check out my LinkedIn profile. Below, you’ll find information on the formal studies I’ve pursued in other fields, which have greatly contributed to the development of my soft skills.",
+    "I am currently pursuing a Bachelor of Science in Computer Science at the University of the People, now in my second year of a four-year program, where I am building a solid foundation in software development, algorithms, and system design. In parallel, I have completed the Full Stack Open course from the University of Helsinki, gaining hands-on experience with modern web technologies, including React, Next.js, Node.js, Express, and advanced state management with Redux and TanStack Query.Beyond formal studies, I actively develop personal projects that apply these skills in real-world scenarios, such as FactorNode, my AI automation agency, where I design APIs, implement AI-driven workflows, and create virtual agents using n8n. My focus lies in building dynamic, responsive, and high-performance web applications, integrating frontend excellence with backend reliability and intelligent automation.",
 
   items: [
     {
-      institution: "ICP",
-      degree: "Ontological Coach",
-      year: "2016 - 2019",
+      institution: "University of the People",
+      degree: "Bachelor of Science in Computer Science",
+      year: "2024 - 2028",
     },
     {
-      institution: "International House",
-      degree: "Spanish teacher as a foreigner language",
+      institution: "ICP",
+      degree: "Professional Ontological Coach",
       year: "2019",
     },
   ],
@@ -275,14 +275,3 @@ const Resume = () => {
 };
 
 export default Resume;
-
-{
-  /*  
-  
-  About Me: Primero, porque es donde presentas quién eres. Es la introducción ideal para que los empleadores te conozcan.
-Skills: Después, para mostrar rápidamente tus competencias técnicas.
-Soft Skills: Luego, para complementar las habilidades técnicas con las blandas, destacando tu capacidad de trabajar en equipo y liderar.
-Education: Finalmente, cerrás con tu formación, mostrando tanto tu autodidactismo en programación como tu experiencia en Coaching.
-  
-  */
-}

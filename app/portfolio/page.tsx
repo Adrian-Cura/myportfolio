@@ -49,6 +49,17 @@ const projectList = [
     live: "https://shadowtube.vercel.app",
     github: "https://github.com/Adrian-Cura/ShadowTube",
   },
+  {
+    num: "03",
+    category: "FullStack",
+    title: "Factor Node",
+    description:
+      "FactorNode is a forward-thinking AI automation agency dedicated to revolutionizing business operations through intelligent automation solutions.",
+    stack: [{ name: "Astro" }, { name: "Svelte" }, { name: "tailwindcss" }],
+    image: "/assets/factornode.png",
+    live: "https://www.factornode.com",
+    github: "https://github.com/Adrian-Cura/factornode",
+  },
 ];
 
 const Portfolio = () => {

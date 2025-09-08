@@ -15,10 +15,10 @@ const Home = () => {
               <br /> <span className="text-accent">Adrian Cura</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              I specialize in creating dynamic and responsive web applications.
-              My passion for coding drives me to explore the foundations of
-              backend development to enhance my own projects and continuously
-              expand my skill set.
+              I craft dynamic and responsive web applications, designing robust
+              APIs with Express and implementing AI-driven automations, virtual
+              agents, and intelligent workflows to streamline processes using
+              n8n.
             </p>
             {/* socias */}
             <div className="mb-8 xl:mb-8 flex gap-6 text-xl justify-center">
