@@ -157,15 +157,15 @@ const Portfolio = () => {
             >
               {projectList.map((project, index) => (
                 <SwiperSlide key={index}>
-                  <div className="h-[460px] relative group flex justify-center items-center bg-black rounded-lg">
+                  <div className="h-[350px] relative group flex justify-center items-center bg-black rounded-lg">
                     {/* Overlay */}
                     <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
                     {/* Image */}
                     <div className="relative w-full h-full ">
                       <Image
-                        src={project.image}
                         fill
-                        className="object-fill rounded-lg"
+                        src={project.image}
+                        className="rounded-lg object-center"
                         alt="project preview"
                       />
                     </div>
