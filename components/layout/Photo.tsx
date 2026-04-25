@@ -21,12 +21,12 @@ const Photo = () => {
           }}
         >
           <Image
-            src="/assets/picFoliov3.png"
+            src="/assets/profile.png"
             quality={100}
             priority
             fill
             alt="Picture of me"
-            className="object-contain  cursor-help opacity-70  "
+            className="object-contain  cursor-help opacity-70"
           />
         </motion.div>
 
